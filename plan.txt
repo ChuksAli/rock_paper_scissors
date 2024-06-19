@@ -1,0 +1,26 @@
+TASK
+Write a rock paper scissors game that is played in the console against a computer.
+
+Computer generates either Rock paper or scissors - HOW 
+random number generator - if number between 0-0.33 rock, 33-66 paper, 66-99 scissors
+
+User inputs either rock, paper or scissors into the console
+Input is fed through prompt function 
+Ensure that all cases are valid on input
+if input is not equal to rock papaer or scissors return error message
+
+
+
+Create variables ot rack the score of that games
+create a function that plays the game out
+It takes in the huann choice and the computer choice and evaluates them using the below logic:
+
+If uses choice is rock and computer choice is rock, log that this is a draw
+If user choice is rock and computer choice is paper, log that this is a loss
+If user choice is rock and computer choice is scissors, log that this is a awin
+
+If use choice is paper and computer choice is rock, log that this is a win
+If user choice is paper and computer choice is paper, log this as a draw
+If user choice is paper and computer choice is scissors, log this as a loss 
+
+
